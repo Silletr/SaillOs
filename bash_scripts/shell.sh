@@ -1,6 +1,4 @@
 #!/usr/bin/env bash
-# Простейшая оболочка SilleOS
-
 while true; do
   read -rp "LazyDevOS> " cmd args
   case $cmd in
