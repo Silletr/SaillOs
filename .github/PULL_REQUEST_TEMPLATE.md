@@ -1,3 +1,8 @@
+---
+name: pull-request-template
+description: Pull Request Template
+---
+
 # Changes category (NEW FILE/DIR or BUG FIX or DOC CHANGES)
 
 Change one category from designated upper (only the right one)
@@ -12,4 +17,4 @@ Why u changed somewhat you changed, descript it
 ---
 ## Additionally
 - Tests - what tests did u conduct
-- Documentaion - If changed - descript changes, else - just stay "Not changed"
+- Documentation - If changed - describe changes, else - just stay "Not changed"
