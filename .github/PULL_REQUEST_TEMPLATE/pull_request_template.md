@@ -1,6 +1,6 @@
 # Changes category (NEW FILE/DIR, BUG FIX, DOC CHANGES, CHANGED/DELETED FILE/DIR, MERGING FROM: {branch1} TO: {branch2})
 
-Change one category from designated upper (only the right one)
+Category: 
 
 ## What changed:
 - Change 1
