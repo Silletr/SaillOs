@@ -1,4 +1,4 @@
-# Changes category (NEW FILE/DIR or BUG FIX or DOC CHANGES)
+# Changes category (NEW FILE/DIR, BUG FIX, DOC CHANGES, CHANGED/DELETED FILE/DIR, MERGING FROM: {branch1} TO: {branch2})
 
 Change one category from designated upper (only the right one)
 
