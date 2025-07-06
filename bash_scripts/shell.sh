@@ -1,9 +1,10 @@
 #!/usr/bin/env bash
+
 while true; do
   read -rp "LazyDevOS> " cmd args
   case $cmd in
     help)
-      echo "Команды: help, echo, clear, exit, ping, hack";;
+      echo "Commands: help, echo, clear, exit, ping, hack";;
     echo)
       echo $args;;
     clear)
