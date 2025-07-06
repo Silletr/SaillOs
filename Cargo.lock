@@ -18,9 +18,9 @@ checksum = "c08606f8c3cbf4ce6ec8e28fb0014a2c086708fe954eaa885384a6165172e7e8"
 
 [[package]]
 name = "bit_field"
-version = "0.10.2"
+version = "0.9.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "dc827186963e592360843fb5ba4b973e145841266c1357f7180c43526f2e5b61"
+checksum = "ed8765909f9009617974ab6b7d332625b320b33c326b1e9321382ef1999b5d56"
 
 [[package]]
 name = "bitflags"
@@ -29,31 +29,25 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "bef38d45163c2f1dde094a7dfd33ccf595c92905c8f8f4fdc18d06fb1037718a"
 
 [[package]]
-name = "bitflags"
-version = "2.9.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "1b8e56985ec62d17e9c1001dc89c88ecd7dc08e47eba5ec7c29c7b5eeecde967"
-
-[[package]]
 name = "conquer-once"
-version = "0.3.2"
+version = "0.2.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "7c6d3a9775a69f6d1fe2cc888999b67ed30257d3da4d2af91984e722f2ec918a"
+checksum = "96eb12fb69466716fbae9009d389e6a30830ae8975e170eff2d2cff579f9efa3"
 dependencies = [
  "conquer-util",
 ]
 
 [[package]]
 name = "conquer-util"
-version = "0.3.0"
+version = "0.2.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "e763eef8846b13b380f37dfecda401770b0ca4e56e95170237bd7c25c7db3582"
+checksum = "654fb2472cc369d311c547103a1fa81d467bef370ae7a0680f65939895b1182a"
 
 [[package]]
 name = "font8x8"
-version = "0.3.1"
+version = "0.2.7"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "875488b8711a968268c7cf5d139578713097ca4635a76044e8fe8eedf831d07e"
+checksum = "e63201c624b8c8883921b1a1accc8916c4fa9dbfb15d122b26e4dde945b86bbf"
 
 [[package]]
 name = "lock_api"
@@ -73,12 +67,6 @@ checksum = "071dfc062690e90b734c0b2273ce72ad0ffa95f0c74596bc250dcfd960262841"
 dependencies = [
  "autocfg",
 ]
-
-[[package]]
-name = "rustversion"
-version = "1.0.21"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "8a0d197bd2c9dc6e53b84da9556a69ba4cdfab8619eb41a8bd1cc2027a0f6b1d"
 
 [[package]]
 name = "scopeguard"
@@ -106,11 +94,11 @@ dependencies = [
 
 [[package]]
 name = "vga"
-version = "0.2.9"
+version = "0.2.6"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "a5dd163a9cf938e0406e1ee29e3b71ac7d8f5ffe6c1321fe74797ebef1299bc6"
+checksum = "791f00e665a5caf3feff53c7ef5b0b2e038db111c1ddd7f5251461f9a3ce1682"
 dependencies = [
- "bitflags 1.3.2",
+ "bitflags",
  "conquer-once",
  "font8x8",
  "num-traits",
@@ -119,19 +107,11 @@ dependencies = [
 ]
 
 [[package]]
-name = "volatile"
-version = "0.4.6"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "442887c63f2c839b346c192d047a7c87e73d0689c9157b00b53dcc27dd5ea793"
-
-[[package]]
 name = "x86_64"
-version = "0.14.13"
+version = "0.13.6"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "c101112411baafbb4bf8d33e4c4a80ab5b02d74d2612331c61e8192fc9710491"
+checksum = "021b49a4cb0a0d9490265cc169ca816014cbf61d3f3b75424815912977b81871"
 dependencies = [
  "bit_field",
- "bitflags 2.9.1",
- "rustversion",
- "volatile",
+ "bitflags",
 ]

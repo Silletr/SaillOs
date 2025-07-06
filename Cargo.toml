@@ -1,5 +1,5 @@
 [dependencies]
-vga = "0.2.6"
+vga = "=0.2.6"
 spin = "0.9.0"
 
 [package]
