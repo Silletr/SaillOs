@@ -1,7 +1,6 @@
 c_scripts/main
 
 
-
+rust_script/target/
 # Added by cargo
-
 /target
