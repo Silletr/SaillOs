@@ -1,2 +1,7 @@
 c_scripts/main
 
+
+
+# Added by cargo
+
+/target
