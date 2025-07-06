@@ -16,7 +16,7 @@ pub extern "C" fn _start() -> ! {
 
     let color_code = ColorCode::new(Color::White, Color::Black);
 
-    // Используем глобального WRITER'а
+
     WRITER.lock().set_color_code(color_code);
     writeln!(WRITER.lock(), "Hello, SaillOS!").unwrap();
 
