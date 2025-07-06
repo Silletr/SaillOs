@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 while true; do
-  read -rp "LazyDevOS> " cmd args
+  read -rp "SaillOS> " cmd args
   case $cmd in
     help)
       echo "Commands: help, echo, clear, exit, ping, hack";;
@@ -16,6 +16,7 @@ while true; do
     hack)
       echo "Succefully hacked.. but what? ";;
     *)
+
       echo "Unknown command: $cmd";;
   esac
 done
